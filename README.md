@@ -14,6 +14,16 @@ helped me understand the way the data is encoded. This work is to help with
 users to use the scripts with a more refind approach than to solder to each
 memcard they wish to read/write to.
 
+## Breakout Board
+
+A breakout board has been developed and ordered from Oshpark to help test the
+footproint, and to give a better ability to use the port for other projects.
+Currently it is untested, but the project is shared
+[here](https://oshpark.com/shared_projects/4fljLSVF) if you wish to give it a
+try until I get it back or have faith in my measurements.
+
+![breakout](https://github.com/DeadlySurgeon/gamecube_memcard_kicad/blob/main/images/breakout.png)
+
 ## Work In Progress
 
 This footprint has been sent to the fab for testing. Once I receive it back
