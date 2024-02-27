@@ -2,8 +2,8 @@
 
 KiCad footprint and symbol for the Memory Card port on a Game Cube.
 
-**WARNING**: Untested. Ordered PCB on Feb 9th, 2024. Will be a hot minute until
-I get it back from the fab.
+As of Febuary 27th 2024 I got the prototype breakout boards back from oshpark
+and they fit the component well. 
 
 ## gc-memcard-adapter
 
@@ -16,23 +16,13 @@ memcard they wish to read/write to.
 
 ## Breakout Board
 
-A breakout board has been developed and ordered from Oshpark to help test the
-footproint, and to give a better ability to use the port for other projects.
-Currently it is untested, but the project is shared
-[here](https://oshpark.com/shared_projects/4fljLSVF) if you wish to give it a
-try until I get it back or have faith in my measurements.
+For ease of use, outside of a complete project, I designed a basic breakout board 
+and have it listed on oshpark if you wish to order your own. Given how simple 
+breakout boards are, I highly recommend making your own breakout board with your
+own pin header setup since I used weird hard to get pins. BUT, if you do wish to 
+order your own feel free to do so [here](https://oshpark.com/shared_projects/4fljLSVF).
 
 ![breakout](https://github.com/DeadlySurgeon/gamecube_memcard_kicad/blob/main/images/breakout.png)
-
-## Work In Progress
-
-This footprint has been sent to the fab for testing. Once I receive it back
-I will post the results on whether or not it fits well enough. Desoldering a
-Memory Card port is annoying enough as it is, so I might look into other options
-for people who for whatever reason wish to use the gamecube memory card port in
-their projects. In a separate repo, I will also be including my own scripts for
-reading and parsing GCP/GCI files, including a script to copy a GCI file (either
-extracted from a GCP file or exported by Dolphin) to a functional Memcard.
 
 ## The Elephant In The Room
 
@@ -53,6 +43,8 @@ wasteful and have that change.
 ![schematic](https://github.com/DeadlySurgeon/gamecube_memcard_kicad/blob/main/images/schematic.png)
 
 ![footprint](https://github.com/DeadlySurgeon/gamecube_memcard_kicad/blob/main/images/footprint.png)
+
+![top centered](https://github.com/DeadlySurgeon/gamecube_memcard_kicad/blob/main/images/poc_2.jpg)
 
 ## License
 
